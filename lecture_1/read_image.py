@@ -4,7 +4,7 @@ img1 = cv2.imread('img1.jpg')
 print(img1.shape)
 
 
-img1 = cv2.resize(img1 , (1024, 1365))
+img1 = cv2.resize(img1 , (500, 650))
 
 cv2.imwrite("new_img.jpg", img1)
 
